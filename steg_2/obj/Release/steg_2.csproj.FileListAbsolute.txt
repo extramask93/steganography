@@ -1,0 +1,14 @@
+C:\Users\damian.jozwiak\Downloads\steganography-master\steg_2\obj\Release\steg_2.csprojAssemblyReference.cache
+C:\Users\damian.jozwiak\Downloads\steganography-master\steg_2\obj\Release\MainWindow.g.cs
+C:\Users\damian.jozwiak\Downloads\steganography-master\steg_2\obj\Release\App.g.cs
+C:\Users\damian.jozwiak\Downloads\steganography-master\steg_2\obj\Release\steg_2_MarkupCompile.cache
+C:\Users\damian.jozwiak\Downloads\steganography-master\steg_2\obj\Release\steg_2_MarkupCompile.lref
+C:\Users\damian.jozwiak\Downloads\steganography-master\steg_2\bin\Release\steg_2.exe.config
+C:\Users\damian.jozwiak\Downloads\steganography-master\steg_2\bin\Release\steg_2.exe
+C:\Users\damian.jozwiak\Downloads\steganography-master\steg_2\bin\Release\steg_2.pdb
+C:\Users\damian.jozwiak\Downloads\steganography-master\steg_2\obj\Release\MainWindow.baml
+C:\Users\damian.jozwiak\Downloads\steganography-master\steg_2\obj\Release\steg_2.g.resources
+C:\Users\damian.jozwiak\Downloads\steganography-master\steg_2\obj\Release\steg_2.Properties.Resources.resources
+C:\Users\damian.jozwiak\Downloads\steganography-master\steg_2\obj\Release\steg_2.csproj.GenerateResource.cache
+C:\Users\damian.jozwiak\Downloads\steganography-master\steg_2\obj\Release\steg_2.exe
+C:\Users\damian.jozwiak\Downloads\steganography-master\steg_2\obj\Release\steg_2.pdb

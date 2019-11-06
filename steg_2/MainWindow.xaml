@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:steg_2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="StegCrytoWannaBe" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="40*"/>
@@ -17,10 +17,10 @@
             <RowDefinition Height="1*" />
         </Grid.RowDefinitions>
         <Grid Grid.Row="0" Grid.Column="2" Grid.RowSpan="2">
-        <TextBox x:Name="info" HorizontalAlignment="Left" Height="23" Margin="72.333,134,0,0" TextWrapping="Wrap" Text="secret" VerticalAlignment="Top" Width="120" Grid.Column="3"/>
-        <TextBox x:Name="result" HorizontalAlignment="Left" Height="23" Margin="72.333,175,0,0" TextWrapping="Wrap" Text="salt" VerticalAlignment="Top" Width="120" Grid.Column="3"/>
-        <Button x:Name="do_button" Content="Embed into an image" HorizontalAlignment="Left" Margin="72.333,203,0,0" VerticalAlignment="Top" Width="120" Click="Do_button_Click" Grid.Column="3"/>
-        <Button x:Name="decode_button" Content="Decode from image" Grid.Column="3" HorizontalAlignment="Left" Margin="72.667,229,0,0" VerticalAlignment="Top" Width="120" Height="18" Click="decode_button_Click"/>
+        <TextBox x:Name="info" HorizontalAlignment="Left" Height="23" Margin="72.333,134,0,0" TextWrapping="Wrap" Text="secret" VerticalAlignment="Top" MinWidth="120" Grid.Column="3"/>
+        <TextBox x:Name="result" HorizontalAlignment="Left" Height="23" Margin="72.333,175,0,0" TextWrapping="Wrap" Text="salt" VerticalAlignment="Top" MinWidth="120" Grid.Column="3"/>
+        <Button x:Name="do_button" Content="Embed into an image" HorizontalAlignment="Left" Margin="72.333,203,0,0" VerticalAlignment="Top" MinWidth="120" Click="Do_button_Click" Grid.Column="3"/>
+        <Button x:Name="decode_button" Content="Decode from image" Grid.Column="3" HorizontalAlignment="Left" Margin="72.667,229,0,0" VerticalAlignment="Top" MinWidth="120" Height="18" Click="decode_button_Click"/>
         </Grid>
         <Button Grid.Row="0" Grid.Column="1" x:Name="load_image_button" Content="Load image" Click="load_image_button_Click"/>
         <Button Grid.Row="1" Grid.Column="1" x:Name="save_image_button" Content="Save image"  Click="save_image_button_Click"/>
