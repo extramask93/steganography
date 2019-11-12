@@ -78,5 +78,9 @@ namespace steg_2.lib
 
         }
 
+        public void setKey(string key)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

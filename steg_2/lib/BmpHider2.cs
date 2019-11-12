@@ -120,5 +120,10 @@ namespace steg_2.lib
             return bm;
 
         }
+
+        public void setKey(string key)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -11,5 +11,6 @@ namespace steg_2.lib
     {
         unsafe  byte[] get_message(Bitmap bm);
         unsafe Bitmap embed_message(Bitmap bm, byte[] message);
+        void setKey(string key);
     }
 }

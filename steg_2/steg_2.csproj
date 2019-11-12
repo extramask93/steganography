@@ -60,7 +60,9 @@
     </ApplicationDefinition>
     <Compile Include="lib\BmpHider.cs" />
     <Compile Include="lib\BmpHider2.cs" />
+    <Compile Include="lib\BmpHider3.cs" />
     <Compile Include="lib\IBmpHider.cs" />
+    <Compile Include="lib\RemRandom.cs" />
     <Compile Include="lib\Rijndael.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>

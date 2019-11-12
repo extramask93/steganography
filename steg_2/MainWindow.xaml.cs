@@ -31,7 +31,7 @@ namespace steg_2
         public MainWindow()
         {
             InitializeComponent();
-            hider = new BmpHider2();
+            hider = new BmpHider3();
         }
         private void load_image_button_Click(object sender, RoutedEventArgs e)
         {
@@ -59,6 +59,7 @@ namespace steg_2
 
         private void Do_button_Click(object sender, RoutedEventArgs e)
         {
+            hider.setKey(result.Text);
             var enc_message = Rijndael.Encrypt(Encoding.ASCII.GetBytes(info.Text),
                 Encoding.ASCII.GetBytes(result.Text));
             destination = hider.embed_message(source, enc_message);
@@ -72,7 +73,8 @@ namespace steg_2
 
         private void decode_button_Click(object sender, RoutedEventArgs e)
         {
-            var enc_message = hider.get_message(source);
+            hider.setKey(result.Text);
+            var enc_message = hider.get_message(source);          
             info.Text = Encoding.ASCII.GetString(
                 Rijndael.Decrypt(enc_message,Encoding.ASCII.GetBytes(result.Text))
                 );
